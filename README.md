@@ -85,6 +85,18 @@ describe('Request User - Method: ', () => {
 ### Sintaxe da API Rest com Supertest
 <br>
 
+### _Em construção ..._
 
 
+## Relatórios gerados da suíte de testes executada da "api_reqres.in"** 
+<br>
+
+**Jest HTML Reporter é um plugin para Jest** que gera relatórios de resultados de testes em formato HTML, oferecendo uma visualização detalhada e personalizável dos resultados dos testes JavaScript.
+
+<br>
+
+|Report com os Testes = PASSED	|Report com Error = ASYNC / AWAIT |Report com Error = Response Time |
+|-------------------------------|---------------------------------|---------------------------------|
+| <img width="525" alt="01_REPORT_JEST_OK" src="https://github.com/moiseschiaretto/Supertest_Jest_API_REST/assets/84775466/b9bf7c5f-d7c8-43eb-9aaf-e0393807bbc9"> | <img width="463" alt="02_REPORT_JEST_ERROR_ASYNC_AWAIT" src="https://github.com/moiseschiaretto/Supertest_Jest_API_REST/assets/84775466/7832fdea-4d7e-4c0b-a599-68e1b772a64b"> | <img width="459" alt="03_REPORT_JEST_ERROR_RESPONSE_TIME" src="https://github.com/moiseschiaretto/Supertest_Jest_API_REST/assets/84775466/480f5557-18e2-4c80-b73b-98add0b867cb"> |
+<br>
 
