@@ -78,6 +78,7 @@ describe('Request User - Method: ', () => {
 });
 
 ```
+
 <br>
 
 ### Sintaxe da API Rest com Supertest
