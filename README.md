@@ -21,7 +21,7 @@ O objetivo é desenvolver cenários de testes em JavaScript com Supertest e Jest
 
 <br>
 
-## Estrutura do Projeto "API REST com Rest Assured e TestNG"
+## Estrutura do Projeto "API REST" JavaScript e Node.js, utilizando Supertest e Jest
 <br>
 
 
