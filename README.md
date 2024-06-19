@@ -41,7 +41,7 @@ CRUD com os verbos HTTP, métodos GetAll, GetId, Post, Put, Patch, Delete.
 
 <br>
 
-## Script simples do Supertest
+## Script com a sintaxe da API Rest com Supertest
 <br>
 
 ```
@@ -82,10 +82,6 @@ describe('Request User - Method: ', () => {
 
 <br>
 
-### Sintaxe da API Rest com Supertest
-
-### _Em construção ..._
-<br>
 
 ***
 
