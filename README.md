@@ -87,7 +87,9 @@ describe('Request User - Method: ', () => {
 ### _Em construção ..._
 <br>
 
-## Relatórios gerados da suíte de testes executada da "api_reqres.in"** 
+***
+
+## Relatórios gerados da suíte de testes executada da API REST "reqres.in"
 <br>
 
 **Jest HTML Reporter é um plugin para Jest** que gera relatórios de resultados de testes em formato HTML, oferecendo uma visualização detalhada e personalizável dos resultados dos testes JavaScript da API REST.
