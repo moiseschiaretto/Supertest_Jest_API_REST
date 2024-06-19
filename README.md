@@ -83,10 +83,9 @@ describe('Request User - Method: ', () => {
 <br>
 
 ### Sintaxe da API Rest com Supertest
-<br>
 
 ### _Em construção ..._
-
+<br>
 
 ## Relatórios gerados da suíte de testes executada da "api_reqres.in"** 
 <br>
