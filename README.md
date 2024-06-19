@@ -51,9 +51,46 @@ CRUD com os verbos HTTP, métodos GetAll, GetId, Post, Put, Patch, Delete.
 
 ## Script simples do Supertest
 <br>
+```
 
+const request = require('supertest');
 
+// Collection
+describe('Request User - Method: ', () => {
 
+  // Request GET ALL
+    it('GET ALL - deve listar todos os usuários e o Status Code = ' + statusCodeGET, async () => {
+      try{
+          // Captura o tempo inicial
+          const start = Date.now();
+          const res = await request(baseUrl)
+              .get(endPoint)
+              .set('Accept', contentType)
+              .expect('Content-Type', accept)
+              .expect(statusCodeGET)
+              // Imprime o JSON no console
+              console.log('JSON:');
+              console.log(res.body);
+              // Captura o tempo final após a resposta ser recebida
+              const end = Date.now();
+              // Supertest não retorna responseTime diretamente, é necessário calcular responseTime manualmente
+              verifyResponseTime(start, end); 
+              // Utiliza as funções de assert separadas
+              verifyStatusCodeGet(res.status);          
+      } catch (error) {
+          // Reportar o erro
+          console.error('Erro na execução do teste:', error);
+          throw error;
+      }
+  });
+});
+
+```
+<br>
 
 ### Sintaxe da API Rest com Supertest
+<br>
+
+
+
 
