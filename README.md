@@ -5,6 +5,7 @@ Autor Moisés Ademir Chiaretto
 Descrição das explicações de cada item da estrutura do projeto "API REST  com JavaScript e Node.js, utilizando Supertest e Jest desenvolvido.
 
 O objetivo é desenvolver cenários de testes em JavaScript com Supertest e Jest, e a API REST utilizando os métodos / verbos HTTP (Get, Post, Put, Patch, Delete).
+<br>
 
 |JavaScript		  |Node.js      	|Supertest  		|Jest          |API Rest  	|JSON    		|IDE VSCode     |
 |---------------|---------------|---------------|--------------|------------|-----------|---------------|
