@@ -21,6 +21,52 @@ O objetivo é desenvolver cenários de testes em JavaScript com Supertest e Jest
 <br>
 
 
+## Dependências / pacotes instalados no projeto do Supertest de API REST
+
+<br>
+
+```
+
+PS C:\Supertest\api_rest> npm list
+
+api_rest@1.0.0 C:\Supertest\api_rest
+├── dotenv@16.4.5
+├── jest-html-reporter@3.10.2
+├── jest@29.7.0
+└── supertest@7.0.0
+
+```
+
+### Arquivo "package.json" com as dependências
+
+<br>
+
+```
+
+{
+  "name": "api_rest",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx jest test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "dotenv": "^16.4.5",
+    "jest": "^29.7.0",
+    "jest-html-reporter": "^3.10.2",
+    "supertest": "^7.0.0"
+  }
+}
+
+```
+
+<br>
+
+
 ## Cenários de Testes de API REST
 
 CRUD com os verbos HTTP, métodos GetAll, GetId, Post, Put, Patch, Delete.
